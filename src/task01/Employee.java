@@ -1,38 +1,38 @@
 package task01;
 
 public class Employee {
-    private String employeeName;
-    private String employeePosition;
-    private String employeeEmail;
-    private String employeePhone;
-    private int employeeAge;
+    private String name;
+    private String position;
+    private String email;
+    private String phone;
+    private int age;
 
-    public Employee(String employeeName, String employeePosition, String employeeEmail, String employeePhone, int employeeAge) {
-        this.employeeName = employeeName;
-        this.employeePosition = employeePosition;
-        this.employeeEmail = employeeEmail;
-        this.employeePhone = employeePhone;
-        this.employeeAge = employeeAge;
+    public Employee(String name, String position, String email, String phone, int age) {
+        this.name = name;
+        this.position = position;
+        this.email = email;
+        this.phone = phone;
+        this.age = age;
     }
 
-    public String getEmployeeName() {
-        return employeeName;
+    public String getName() {
+        return name;
     }
 
-    public String getEmployeePosition() {
-        return employeePosition;
+    public String getPosition() {
+        return position;
     }
 
-    public String getEmployeeEmail() {
-        return employeeEmail;
+    public String getEmail() {
+        return email;
     }
 
-    public String getEmployeePhone() {
-        return employeePhone;
+    public String getPhone() {
+        return phone;
     }
 
-    public int getEmployeeAge() {
-        return employeeAge;
+    public int getAge() {
+        return age;
     }
 }
 
